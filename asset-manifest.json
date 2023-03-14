@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/socialNetwork/static/css/main.57300c28.css",
-    "main.js": "/socialNetwork/static/js/main.8e327acd.js",
+    "main.css": "/socialNetwork/static/css/main.7f2f95e0.css",
+    "main.js": "/socialNetwork/static/js/main.74ecb30b.js",
+    "static/css/24.07d6acd4.chunk.css": "/socialNetwork/static/css/24.07d6acd4.chunk.css",
+    "static/js/24.d25ce645.chunk.js": "/socialNetwork/static/js/24.d25ce645.chunk.js",
+    "static/css/224.3fca5a7d.chunk.css": "/socialNetwork/static/css/224.3fca5a7d.chunk.css",
+    "static/js/224.91369733.chunk.js": "/socialNetwork/static/js/224.91369733.chunk.js",
     "static/media/emblem.svg": "/socialNetwork/static/media/emblem.33aa89a9e42338fe93001db3533e17d4.svg",
     "static/media/user_img_empty.svg": "/socialNetwork/static/media/user_img_empty.bf9f807bcbb3d171496dc27192d44ba2.svg",
     "static/media/settings_icon.svg": "/socialNetwork/static/media/settings_icon.0090b7b2693a5a222368f6aa13e76cec.svg",
@@ -14,11 +18,15 @@
     "index.html": "/socialNetwork/index.html",
     "static/media/arrow_righ.svg": "/socialNetwork/static/media/arrow_righ.2d2547b53a1fda1b0c31addefc05bb84.svg",
     "static/media/arrow_left.svg": "/socialNetwork/static/media/arrow_left.26a8a844886e4d824979e0014c9c2c26.svg",
-    "main.57300c28.css.map": "/socialNetwork/static/css/main.57300c28.css.map",
-    "main.8e327acd.js.map": "/socialNetwork/static/js/main.8e327acd.js.map"
+    "main.7f2f95e0.css.map": "/socialNetwork/static/css/main.7f2f95e0.css.map",
+    "main.74ecb30b.js.map": "/socialNetwork/static/js/main.74ecb30b.js.map",
+    "24.07d6acd4.chunk.css.map": "/socialNetwork/static/css/24.07d6acd4.chunk.css.map",
+    "24.d25ce645.chunk.js.map": "/socialNetwork/static/js/24.d25ce645.chunk.js.map",
+    "224.3fca5a7d.chunk.css.map": "/socialNetwork/static/css/224.3fca5a7d.chunk.css.map",
+    "224.91369733.chunk.js.map": "/socialNetwork/static/js/224.91369733.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57300c28.css",
-    "static/js/main.8e327acd.js"
+    "static/css/main.7f2f95e0.css",
+    "static/js/main.74ecb30b.js"
   ]
 }
