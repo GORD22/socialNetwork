@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import {Navigate, Route, Routes} from "react-router-dom";
@@ -5,14 +6,16 @@ import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import ProfileContainer from "./components/Profile/ProfileContainer";
-import DialogsContainer from "./components/Dialogs/DialogsContainer";
-import UsersContainer from "./components/Users/UsersContainer";
 import LoginContainer from "./components/Login/LoginContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import {connect} from "react-redux";
 import {initializeApp} from "./store/appSlice";
 import {useEffect} from "react";
 import Preloader from "./components/common/Preloader/Preloader";
+
+
+const DialogsContainer = React.lazy(() => import("./components/Dialogs/DialogsContainer"))
+const UsersContainer = React.lazy(() => import("./components/Users/UsersContainer"));
 
 const App = ({initialized, initializeApp}) => {
     useEffect(() => {

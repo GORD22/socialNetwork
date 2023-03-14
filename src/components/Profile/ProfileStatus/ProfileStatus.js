@@ -23,7 +23,8 @@ const ProfileStatus = ({status, updateStatus}) => {
             {
                 !editMode ?
                     <div onDoubleClick={editModeActivate}>
-                        <b>Status: </b>{status} </div> :
+                        <b>Status: </b>{status}
+                    </div> :
                     <div><input placeholder={'Change your status'} autoFocus={true} onChange={changeStatus}
                                 onBlur={editModeDisable} value={newStatus}/></div>
             }
