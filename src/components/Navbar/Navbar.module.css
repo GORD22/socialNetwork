@@ -1,0 +1,27 @@
+.navbar {
+    grid-area: n;
+    padding: 10px 0 10px 10px;
+}
+
+.item {
+    padding: 2px;
+}
+
+.item :hover {
+    border-radius: 5px;
+    background-color: #0b4042;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    height: 35px;
+}
+.link img {
+    width: 24px;
+    margin: 0 10px;
+}

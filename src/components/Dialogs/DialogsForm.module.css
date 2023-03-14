@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+}
+.formTextarea {
+    resize: none;
+    width: 550px;
+    height: 36px;
+}
+.btn {
+    height: 42px;
+    width: 110px;
+}
+
+.errorTextarea {
+    border: 2px #da3c3c solid;
+}
+
+.error {
+    color: #da3c3c;
+}

@@ -1,0 +1,19 @@
+.dialogsPage {
+    display: grid;
+    grid-template-areas:
+            "d" "m"
+            "d" "m";
+    grid-template-columns: 8fr 4fr;
+
+    position: relative;
+    height: 100%;
+}
+
+.dialogsContent {
+
+    border-left: 2px #414642 solid;
+}
+
+.userMessage {
+    text-align: right;
+}

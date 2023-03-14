@@ -1,0 +1,11 @@
+.form {
+    padding: 10px;
+}
+
+.errorInput {
+    border: 2px #da3c3c solid;
+}
+
+.error {
+    color: #da3c3c;
+}

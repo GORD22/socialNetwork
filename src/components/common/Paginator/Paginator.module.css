@@ -1,0 +1,24 @@
+.paginator {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 18px;
+}
+
+.page {
+    margin: 0 5px;
+    cursor: pointer;
+}
+.pageActive {
+    font-weight: bold;
+    text-decoration: underline white;
+}
