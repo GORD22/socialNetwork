@@ -1,7 +1,5 @@
 import React from "react";
 import {Field, Form, Formik} from "formik";
-import style from "./ProfileInfoForm.module.css";
-import cn from "classnames";
 
 const ProfileInfoForm = ({profile, saveProfile, setEditMode}) => {
     return (

@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import style from "./Profile.module.css"
 import MyPostsContainer from "./MyPosts/MyPostsContainer";
-import emptyUserImg from "../../assets/img/users/user_img_empty.svg"
 import Preloader from "../common/Preloader/Preloader";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
